@@ -6,7 +6,7 @@ To do :
  3. Extract it and save it to C:/Xampp/htdocs/mytask/ (mytask is a folder. Put all files)
  4. Go to localhost/phpmyadmin in browser to create a database.
  5. Click Databases tab, and in Create database input box, give a name "streaming" and click Create.
- 6. Now, choose the streaming database in left side -> Click Import -> Choose the sql files which i gave and -> Click Go.
+ 6. Now, choose the streaming database in left side -> Click Import -> Choose the sql files which i gave (streaming.sql) and -> Click Go.
  7. Hurray! Visit localhost/mytask in web browser.
 
  
