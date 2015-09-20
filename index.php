@@ -64,9 +64,9 @@
 
                 <h4>Total Tweets - <span class="total-to-load"><?php echo "loading..."; ?></span></h4>
 
-                 <p class="not-center">#<?php echo $tag_name_one ?> <span class="firstcount"><?php echo "0"; ?></span></p>
+                 <p class="not-center">#<?php echo $tag_name_one ?> (<span class="f"><?php echo ""; ?></span>) <span class="firstcount"><?php echo "0"; ?></span></p>
 
-                <p class="not-center">#<?php echo $tag_name_two ?> <span class="secondcount"><?php echo "0"; ?></span></p>
+                <p class="not-center">#<?php echo $tag_name_two ?> (<span class="s"><?php echo ""; ?></span>) <span class="secondcount"><?php echo "0"; ?></span></p>
                 <br/><br/>
                 <h3>Want to know more?</h3>
 
@@ -243,6 +243,9 @@ setInterval(function()
     console.log(second_tag_percent);        
 
     $('.total-to-load').text(total);
+    $('.f').text(first_tag_total_count);
+    $('.s').text(second_tag_total_count);
+
     // $('.firstcount').text(first_tag_percent);
     // $('.secondcount').text(second_tag_percent);
 
