@@ -9,7 +9,7 @@
 * @version BETA 0.30
 */
   $db_host = 'localhost';
-  $db_user = 'yuva';
+  $db_user = 'root';
   $db_password = '';
   $db_name = 'streaming'; 
   $tag_name_one ="RWC2015";
